@@ -19,10 +19,8 @@ import retrofit2.converter.gson.GsonConverterFactory;
 public class Api {
 
     private static final String API_URL = "https://api.netdb.io/";
-    //private static final String keyId = "YOUR KEY_ID";
-    private static final String keyId = "5HV7SQ1JPK3V971QOMKWG2BF1";
-    //private static final String keySecret = "YOUR KEY_SECRET";
-    private static final String keySecret = "dTzFbfKJpXBlCtHNbTQENF9bexxT3OlZWG/RYBW8Grk";
+    private static final String keyId = "YOUR KEY_ID";
+    private static final String keySecret = "YOUR KEY_SECRET";
 
     public static final String auth = Base64.getEncoder().encodeToString((keyId + ":" + keySecret).getBytes());
 
